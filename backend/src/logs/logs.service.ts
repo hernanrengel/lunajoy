@@ -1,6 +1,6 @@
 import { Injectable, Inject, forwardRef, NotFoundException } from '@nestjs/common';
 import { CreateLogDto } from './dto/create-log.dto';
-import { PrismaService } from 'prisma/prisma.service';
+import { PrismaService } from '../../prisma/prisma.service';
 import { EventsGateway } from '../events/events/events.gateway';
 import { startOfDay, endOfDay } from 'date-fns';
 
