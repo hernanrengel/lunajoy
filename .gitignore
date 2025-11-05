@@ -1,0 +1,49 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Build files
+dist/
+build/
+
+# Logs
+logs
+*.log
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug logs from npm
+npm-debug.log*
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Prisma
+prisma/migrations/
+!prisma/migrations/migration.toml
+
+# Testing
+/coverage
+
+# Next.js
+.next/
+out/
+
+# Production
+build

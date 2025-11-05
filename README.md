@@ -47,6 +47,27 @@ A full-stack application for tracking mental health metrics, built with NestJS, 
      - Email: admin@example.com
      - Password: admin123
 
+### 🔒 Environment Configuration
+
+1. **Backend Environment Variables**
+   - Copy the example environment file:
+     ```bash
+     cp backend/.env.example backend/.env
+     ```
+   - Update the values in `.env` with your actual configuration:
+     - `JWT_SECRET`: A secure random string for JWT token signing
+     - `DATABASE_URL`: Your PostgreSQL connection string
+     - `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`: From Google Cloud Console
+     - Other variables as needed
+
+2. **Frontend Environment**
+   - Create a `.env` file in the frontend directory if needed
+   - Common frontend environment variables might include:
+     ```
+     VITE_API_URL=http://localhost:3000
+     VITE_GOOGLE_CLIENT_ID=your_google_client_id_here
+     ```
+
 ### Database Access
 
 - **Host**: db
