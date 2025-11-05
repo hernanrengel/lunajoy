@@ -1,0 +1,18 @@
+/* Style for the eye icon button */
+.view-button {
+  transition: background-color 0.2s;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-button:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.view-button:active {
+  background-color: rgba(0, 0, 0, 0.08);
+}
