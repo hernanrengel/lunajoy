@@ -30,7 +30,7 @@ A full-stack application for tracking mental health metrics, built with NestJS, 
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:hernanrengel/lunajoy.git
    cd lunajoy
    ```
 
@@ -100,19 +100,3 @@ DATABASE_URL="postgresql://admin:admin123@db:5432/mental_tracker?schema=public"
 JWT_SECRET=your-secret-key
 GOOGLE_CLIENT_ID=your-google-client-id
 ```
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📧 Contact
-
-For any questions or feedback, please open an issue on the repository.
